@@ -1,0 +1,46 @@
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/bg-body.png);
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+	border: 1px #c7c7c7;
+	padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+.card {
+  margin: 4px;
+}
+.card-image img {
+  border-radius: 100%;
+  display: flex;
+}
+
+.social-media{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-media a {
+  background-color: #508fb8;
+  width: 80%;
+  padding: 20px;
+  border-radius: 100%;
+  font-size: 60px;
+  color: white;
+}
