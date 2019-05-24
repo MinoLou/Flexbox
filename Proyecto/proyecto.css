@@ -1,0 +1,23 @@
+.encabezado {
+	height: 65px;
+	background-color: blue;
+	color: white;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+	padding: 5px;
+}
+
+.pie {
+	height: 100px;
+	background-color: black;
+	color: white;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -10px;
+	padding: 5px;
+}
+
+.cuerpo {
+	height: 1000px;
+}
